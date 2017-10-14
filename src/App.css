@@ -1,0 +1,32 @@
+.App {
+  align-items: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  color: turquoise;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  flex-direction: row;
+  font-size: large;
+  align-self: center;
+}
+
+.Map-image {
+  width: 40%;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
