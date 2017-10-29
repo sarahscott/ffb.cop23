@@ -8,7 +8,7 @@
     "position": "Hambach, Germany",
     "link": null,
     "description": "Hear from people in Fiji and Germany and how the struggle to keep fossil fuels in the ground and fight off worsening climate impacts connects them",
-    "coords": [100, 245, 120, 265],
+    "coords": [107, 256, 13],
     "_id": 0
   },
   {
@@ -20,7 +20,7 @@
     "position": "Arctic region",
     "link": "",
     "description": "The indigenous Saami live in the Arctic regions of Sweden, Norway, Finland and Russia, at the frontlines of climate change",
-    "coords": [200, 115, 230, 150],
+    "coords": [215, 130, 19],
     "_id": 1
   },
   {
@@ -32,7 +32,7 @@
     "position": "Palau",
     "link": "http://themissingslate.com/2017/10/01/palau-pacific-resort/",
     "description": "A poem by Pohnpeian poet Emelihter Kihleng inspired by the Palau Pacific Resort motto 'like no other island dream'",
-    "coords": [525, 420, 540, 435],
+    "coords": [529, 429, 14],
     "_id": 2   
   },
   {
@@ -43,8 +43,8 @@
     "video": "duKPElFzBP4",
     "position": "Pacific Ocean / East of Australian coast",
     "link": null,
-    "description": "Up to 50% of the Great Barrier Reef may be dead already thanks to climate change.",
-    "coords": [570, 500, 595, 530],
+    "description": "Up to 50% of the Great Barrier Reef may be dead already because of climate change.",
+    "coords": [582, 515, 14],
     "_id": 3
   },
   {
@@ -56,7 +56,7 @@
     "position": "Guam or FSM",
     "link": "http://themissingslate.com/2017/10/01/the-caregivers-story/",
     "description": "A poem by Evelyn Flores from Guam about urohs, intricately embroidered Pohnpeian skirts adopted by Chuukese women as everyday wear",
-    "coords": [595, 420, 610, 435],
+    "coords": [595, 425, 14],
     "_id": 4    
   },
   {
@@ -68,7 +68,7 @@
     "position": "Marshall Islands",
     "link": "",
     "description": "Selina Leem was a clarion voice for the Marshall Islands at the COP21 climate talks in Paris, and continues to push for climate action with urgency",
-    "coords": [640, 410, 655, 425],
+    "coords": [645, 412, 14],
     "_id": 5    
   },
   {
@@ -80,7 +80,7 @@
     "position": "Marshall Islands",
     "link": "http://themissingslate.com/2017/10/01/dear-matafele-peinam/",
     "description": "Kathy performed her poetry at the Opening Ceremony of the UN Climate Summit in New York in 2014",
-    "coords": [657, 420, 673, 435],
+    "coords": [668, 430, 14],
     "_id": 6
   },
   {
@@ -92,7 +92,7 @@
     "position": "New Zealand",
     "link": "http://themissingslate.com/2017/10/01/gaia/",
     "description": "A poem by Maori poet Serena Ngaio Simmons about the Earth Mother Gaia's wrath",
-    "coords": [655, 590, 670, 610],
+    "coords": [665, 600, 14],
     "_id": 7
   },
   {
@@ -104,7 +104,7 @@
     "position": "American Samoa",
     "link": "http://themissingslate.com/2017/10/01/layers/",
     "description": "Terisa performed her poetry on climate justice live at the COP21 Paris",
-    "coords": [705, 485, 722, 505],
+    "coords": [718, 493, 14],
     "_id": 8
   },
   {
@@ -114,9 +114,9 @@
     "place": "Fiji",
     "video": "xAIUKu44hA4",
     "position": "Fiji",
-    "link": "",
+    "link": "https://haveyoursei.org/",
     "description": "This year, with Fiji as the President of COP 23, the Pacific region will show the world what true climate leadership is",
-    "coords": [665, 500, 685, 520],
+    "coords": [673, 513, 14],
     "_id": 9
   },
   {
@@ -128,7 +128,7 @@
     "position": "Kiribati",
     "link": "",
     "description": "In late February 2015, king tides hit Kiribati destroying the Betio Maternity Hospital, destroyed food supplies and contaminated freshwater supplies",
-    "coords": [680, 440, 695, 460],
+    "coords": [695, 453, 14],
     "_id": 10
   },
   {
@@ -140,7 +140,7 @@
     "position": "Hawai'i or Marshall Islands",
     "link": "http://themissingslate.com/2017/10/01/basket/",
     "description": "A poem by Hawaiian poet No'u Revilla for Kathy Jetnil-Kijiner and the Marshall Islands",
-    "coords": [740, 360, 760, 380],
+    "coords": [745, 368, 14],
     "_id": 11
   },
   {
@@ -152,19 +152,19 @@
     "position": "Hawai'i",
     "link": "http://themissingslate.com/2017/10/01/water-remembers/",
     "description": "A poem by Hawaiian poet Brandy Nālani McDougall to remember the waters of Waikīkī",
-    "coords": [760, 375, 780, 390],
+    "coords": [773, 385, 14],
     "_id": 12
   },
   {
-    "title": "Raise a Paddle: a journey from the Pacific Islands to the tar sands",
+    "title": "Raise a Paddle: A Journey From the Pacific Islands to the Tar Sands",
     "author": "350.org",    
     "source": "350.org",
-    "place": "Canadian tar sands",
+    "place": "Alberta, Canada",
     "video": "YqXm23e1ZRE",
     "position": "Fort McMurray, Alberta, Canada",
     "link": "",
     "description": "In memory and thanks to Pacific Climate Warrior Koreti Tiamalu",
-    "coords": [900, 200, 930, 230],
+    "coords": [916, 215, 15],
     "_id": 13
   },
   {
@@ -176,7 +176,7 @@
     "position": "middle of Ocean",
     "link": "http://themissingslate.com/2017/10/01/pacific-islander-climate-change-poetry/",
     "description": "This is a special issue on climate change poetry by native Pacific Islander poets from across the Pacific and diaspora",
-    "coords": [670, 300, 700, 330],
+    "coords": [681, 314, 15],
     "_id": 14
   },
   {
