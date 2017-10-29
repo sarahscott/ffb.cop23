@@ -1,26 +1,30 @@
 [
   {
     "title": "Loss of Home : From Fiji to Germany", 
+    "author": "350.org",
     "source": "350.org", 
     "place": "Germany & Fiji",
     "video": "aiOlIX3aiN0",
     "position": "Hambach, Germany",
     "link": null,
     "description": "Hear from people in Fiji and Germany and how the struggle to keep fossil fuels in the ground and fight off worsening climate impacts connects them",
-    "coords": [100, 245, 120, 265]
+    "coords": [100, 245, 120, 265],
+    "_id": 0
   },
   {
-    "title": "Climate justice in Sápmi: Sarakka Gaup & Mio Negga",
+    "title": "Climate justice in Sápmi",
+    "author": "Sarakka Gaup & Mio Negga",
     "source": "350.org",
     "place": "Arctic regions of Sweden, Norway, Finland and Russia",
     "video": "6_tJ5R3EL14",
     "position": "Arctic region",
     "link": "",
     "description": "The indigenous Saami live in the Arctic regions of Sweden, Norway, Finland and Russia, at the frontlines of climate change",
-    "coords": [200, 115, 230, 150]
+    "coords": [200, 115, 230, 150],
+    "_id": 1
   },
   {
-    "title": "At Palau Pacific Resort",
+    "title": "At Palau Pacific Resort (link)",
     "author": "Emelihter Kihleng",
     "source": "The Missing Slate",
     "place": "Palau/Pohnpei (FSM)",
@@ -28,136 +32,175 @@
     "position": "Palau",
     "link": "http://themissingslate.com/2017/10/01/palau-pacific-resort/",
     "description": "A poem by Pohnpeian poet Emelihter Kihleng inspired by the Palau Pacific Resort motto 'like no other island dream'",
-    "coords": [525, 420, 540, 435]
+    "coords": [525, 420, 540, 435],
+    "_id": 2   
   },
   {
     "title": "UNESCO: Protect the Great Barrier Reef, Not Coal!", 
+    "author": "350.org",    
     "source": "350.org", 
     "place": "Australia",
     "video": "duKPElFzBP4",
     "position": "Pacific Ocean / East of Australian coast",
     "link": null,
     "description": "Up to 50% of the Great Barrier Reef may be dead already thanks to climate change.",
-    "coords": [570, 500, 595, 530]
+    "coords": [570, 500, 595, 530],
+    "_id": 3
   },
   {
-    "title": "Evelyn Flores: The Caregiver’s Story",
+    "title": "The Caregiver’s Story (link)",
+    "author": "Evelyn Flores",    
     "source": "The Missing Slate",
     "place": "Guam/Chuuk (FSM)",
     "video": "",
     "position": "Guam or FSM",
     "link": "http://themissingslate.com/2017/10/01/the-caregivers-story/",
     "description": "A poem by Evelyn Flores from Guam about urohs, intricately embroidered Pohnpeian skirts adopted by Chuukese women as everyday wear",
-    "coords": [595, 420, 610, 435]
+    "coords": [595, 420, 610, 435],
+    "_id": 4    
   },
   {
-    "title": "Selina Leem: This is Our Land Marshall Islands",
+    "title": "This is Our Land Marshall Islands",
+    "author": "Selina Leem",    
     "source": "Skoll.org",
     "place": "Marshall Islands",
     "video": "MgD_TI5vQKY",
     "position": "Marshall Islands",
     "link": "",
     "description": "Selina Leem was a clarion voice for the Marshall Islands at the COP21 climate talks in Paris, and continues to push for climate action with urgency",
-    "coords": [640, 410, 655, 425]
+    "coords": [640, 410, 655, 425],
+    "_id": 5    
   },
   {
-    "title": "Kathy Jetnil-Kijiner: Dear Matafele Peinam",
+    "title": "Dear Matafele Peinam",
+    "author": "Kathy Jetnil-Kijiner",        
     "source": "The Missing Slate",
     "place": "Marshall Islands",
     "video": "DJuRjy9k7GA",
     "position": "Marshall Islands",
     "link": "http://themissingslate.com/2017/10/01/dear-matafele-peinam/",
     "description": "Kathy performed her poetry at the Opening Ceremony of the UN Climate Summit in New York in 2014",
-    "coords": [657, 420, 673, 435]
+    "coords": [657, 420, 673, 435],
+    "_id": 6
   },
   {
-    "title": "Craig Santos Perez: Praise Song for Oceania",
-    "source": "The Missing Slate",
-    "place": "Oceania/Guam/Hawai'i",
-    "video": "t6fmeBerLZc",
-    "position": "middle of Ocean",
-    "link": "http://themissingslate.com/2017/10/01/palau-pacific-resort/",
-    "description": "The words chanted are the words for ocean in various Pacific languages",
-    "coords": null
-  },
-  {
-    "title": "Serena Ngaio Simmons: Gaia",
+    "title": "Gaia",
+    "author": "Serena Ngaio Simmons",            
     "source": "The Missing Slate",
     "place": "Aotearoa-New Zealand",
     "video": "rznCIXhYuGs",
     "position": "New Zealand",
     "link": "http://themissingslate.com/2017/10/01/gaia/",
     "description": "A poem by Maori poet Serena Ngaio Simmons about the Earth Mother Gaia's wrath",
-    "coords": [655, 590, 670, 610]
+    "coords": [655, 590, 670, 610],
+    "_id": 7
   },
   {
-    "title": "Terisa Tinei Siagatonu: Layers",
+    "title": "Layers",
+    "author": "Terisa Tinei Siagatonu",                
     "source": "The Missing Slate",
     "place": "American Samoa/occupied Ohlone Territory",
     "video": "XgXYP6zqzJk",
     "position": "American Samoa",
     "link": "http://themissingslate.com/2017/10/01/layers/",
     "description": "Terisa performed her poetry on climate justice live at the COP21 Paris",
-    "coords": [705, 485, 722, 505]
+    "coords": [705, 485, 722, 505],
+    "_id": 8
   },
   {
     "title": "Have Your Sei: Sign the Pacific Climate Warrior Declaration on Climate Change",
+    "author": "350 Pacific",    
     "source": "350 Pacific",
     "place": "Fiji",
     "video": "xAIUKu44hA4",
     "position": "Fiji",
     "link": "",
     "description": "This year, with Fiji as the President of COP 23, the Pacific region will show the world what true climate leadership is",
-    "coords": [665, 500, 685, 520]
+    "coords": [665, 500, 685, 520],
+    "_id": 9
   },
   {
     "title": "Frontline Truths: Kiribati",
+    "author": "350 Pacific",        
     "source": "350 Pacific",
     "place": "Kiribati",
     "video": "pgCY62tx14M",
     "position": "Kiribati",
     "link": "",
     "description": "In late February 2015, king tides hit Kiribati destroying the Betio Maternity Hospital, destroyed food supplies and contaminated freshwater supplies",
-    "coords": [680, 440, 695, 460]
+    "coords": [680, 440, 695, 460],
+    "_id": 10
   },
   {
-    "title": "No'u Revilla: Basket",
+    "title": "Basket (link)",
+    "author": "No'u Revilla",        
     "source": "The Missing Slate",
     "place": "Marshall Islands/Hawai'i",
     "video": "",
     "position": "Hawai'i or Marshall Islands",
     "link": "http://themissingslate.com/2017/10/01/basket/",
     "description": "A poem by Hawaiian poet No'u Revilla for Kathy Jetnil-Kijiner and the Marshall Islands",
-    "coords": [740, 360, 760, 380]
+    "coords": [740, 360, 760, 380],
+    "_id": 11
   },
   {
-    "title": "Brandy Nālani McDougall: Water remembers",
+    "title": "Water remembers (link)",
+    "author": "Brandy Nālani McDougall",            
     "source": "The Missing Slate",
     "place": "Hawai'i",
     "video": "",
     "position": "Hawai'i",
     "link": "http://themissingslate.com/2017/10/01/water-remembers/",
     "description": "A poem by Hawaiian poet Brandy Nālani McDougall to remember the waters of Waikīkī",
-    "coords": [760, 375, 780, 390]
+    "coords": [760, 375, 780, 390],
+    "_id": 12
   },
   {
     "title": "Raise a Paddle: a journey from the Pacific Islands to the tar sands",
+    "author": "350.org",    
     "source": "350.org",
     "place": "Canadian tar sands",
     "video": "YqXm23e1ZRE",
     "position": "Fort McMurray, Alberta, Canada",
     "link": "",
     "description": "In memory and thanks to Pacific Climate Warrior Koreti Tiamalu",
-    "coords": [900, 200, 930, 230]
+    "coords": [900, 200, 930, 230],
+    "_id": 13
   },
   {
-    "title": "Pacific Islander Climate Change Poetry",
+    "title": "The Missing Slate Special Issue: Pacific Islander Climate Change Poetry (link)",
+    "author": "The Missing Slate",
     "source": "The Missing Slate",
     "place": "Oceania",
     "video": "",
     "position": "middle of Ocean",
     "link": "http://themissingslate.com/2017/10/01/pacific-islander-climate-change-poetry/",
     "description": "This is a special issue on climate change poetry by native Pacific Islander poets from across the Pacific and diaspora",
-    "coords": [670, 300, 700, 330]
+    "coords": [670, 300, 700, 330],
+    "_id": 14
+  },
+  {
+    "title": "Praise Song for Oceania",
+    "author": "Craig Santos Perez",    
+    "source": "The Missing Slate",
+    "place": "Oceania/Guam/Hawai'i",
+    "video": "t6fmeBerLZc",
+    "position": "middle of Ocean",
+    "link": "http://themissingslate.com/2017/10/01/palau-pacific-resort/",
+    "description": "The words chanted are the words for ocean in various Pacific languages",
+    "coords": null,
+    "_id": 15
+  },
+  {
+    "title": "Puerto Rico se Levanta",
+    "author": "Ashley Villanueva",    
+    "source": "",
+    "place": "Puerto Rico",
+    "video": "",
+    "position": "Puerto Rico",
+    "link": "",
+    "description": "",
+    "coords": null,
+    "_id": 16
   }
 ]

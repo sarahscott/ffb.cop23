@@ -14,6 +14,14 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
+.thing {
+  font-size: 60%;
+}
+
+div li {
+  display: inline-block;
+}
+
 .App-title {
   font-size: 1.5em;
 }
@@ -37,9 +45,10 @@ h1 {
 }
 
 a:link {
+  color: black;
   text-decoration-line: none;
   font-size: 25px;
-  font-style: bold;
+  font-weight: bold;
 }
 
 a:hover {
@@ -47,7 +56,9 @@ a:hover {
   font-style: italic;
 }
 
-
+a:visited {
+  color: black;
+}
 
 h2 {
   font-size: 15px;

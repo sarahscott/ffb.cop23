@@ -6,27 +6,82 @@ import ImageMapper from 'react-image-mapper'
 import content from "./content.json"
 import './App.css'
 
+import {
+  BrowserRouter as Router,
+  Route,
+  Link
+} from 'react-router-dom'
+
+const Home = () => (
+  <div>
+    <h2>Home</h2>
+  </div>
+)
+
+const About = () => (
+  <div>
+    <h2>About</h2>
+  </div>
+)
+
+const Topic = ({ match }) => (
+  <div>
+    <h3>{match.params.topicId}</h3>
+  </div>
+)
+
+const Calendar = () => (
+  <div>
+  <h2>Calendar</h2>
+</div>
+)
+
+const App = () => (
+  <Router>
+    <div>
+      <ul>
+        <li style={{marginRight: 20, marginLeft: -20}}><Link className="thing" to="/">From a Sea of Islands to the Rhineland(s)</Link></li>
+        <li style={{marginRight: 20}}><Link to="/about">About</Link></li>
+        <li><Link to="/calendar">COP23 Calendar</Link></li>
+      </ul>
+
+
+      <Route exact path="/" component={Map}/>
+      <Route path="/about" component={About}/>
+      <Route path="/calendar" component={Calendar}/>
+    </div>
+  </Router>
+)
+export default App
+
+
+
+const Description = styled.div`
+  width: 700px;
+`
+
 const MAP = {name: "my-map",
   areas: content.filter((story) => {
     if (story.coords) {
       return true
     }
     return false
-  }).map((story, index) => {
-    return { shape: "rect", coords: story.coords, _id: index }
+  }).map((story) => {
+    return { shape: "rect", coords: story.coords, _id: story._id }
   })
 }
 
-class App extends Component {
+
+
+
+class Map extends Component {
 
   constructor(props) {
     super(props)
     this.state = { width: 0, height: 0, showMap: true, showOtherDiv: false, highlightedArea: null }
   }
 
-  updateDimensions() {
-    console.log(window.innerWidth)
-    
+  updateDimensions() {    
     if(window.innerWidth < 500) {
       this.setState({ width: 450, height: 102, showMap: false });
     } else {
@@ -47,6 +102,7 @@ class App extends Component {
 
   handleMouseEnter(event) {
     const story = content[event._id]
+    if (!story) return
     const areaName = story.title
     const video = story.video
     this.setState({ highlightedArea: story, showOtherDiv: true })
@@ -58,15 +114,12 @@ class App extends Component {
       flexDirection: "row",
       marginTop: "50px",
     }
+
+    const selectedStory = this.state.highlightedArea
     
     return (
       <div className="App">      
-        <div style={{textAlign: "left", marginLeft: 20}}>
-          <div className="Navigation-bar">
-            <h1> From a Sea of Islands to the Rheinland(s) </h1>
-            <h1> About </h1>
-            <h1> Calendar of COP23 Events </h1>
-          </div>
+        <div style={{textAlign: "left", marginLeft: 20 }}>
           <h2>hover over a point on the map, then scroll down</h2>
           <div style={containerStyle}>
             {
@@ -77,7 +130,7 @@ class App extends Component {
                       onMouseEnter={this.handleMouseEnter.bind(this)}
               />
             }
-            <StoryContent selectedStory={this.state.highlightedArea} video={this.state.video}/>            
+            { selectedStory && <StoryContent selectedStory={content.find((item)=> item._id === selectedStory._id)} video={this.state.video}/> }         
           </div>
         </div>
       </div>
@@ -107,14 +160,14 @@ class StoryContent extends Component {
 
     const subtitleStyle = {
       fontSize: 16,
-      fontStyle: "italic"
+      fontStyle: "italic",
     }
 
     return (
       <div style={{marginLeft: 20}}>
         { this.title() }
         { story.author && <h1 style={subtitleStyle}>{story.author}</h1> }
-        { story.description && <div>{story.description}</div> }
+        { story.description && <Description>{story.description}</Description> }
         { video ? <YouTube video={video} autoplay="0" rel="0" modest="1" /> : <div style={{height: 500, width: 10}}/> }
       </div>
     )
@@ -138,36 +191,3 @@ class YouTube extends Component {
     }
 }
 
-class Link extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {hover: false}
-    return this
-  }
-
-  toggleHover() {
-    this.setState({hover: !this.state.hover})
-  }
-
-  render() {
-    var linkStyle;
-    if (this.state.hover) {
-      linkStyle = {fontFamily: "Verdana", fontSize: 25, textDecorationLine: 'underline'}
-    } else {
-      linkStyle = {fontFamily: "Verdana", fontSize: 25, fontStyle: "bold", textDecorationLine: null}
-    }
-    return(
-      <h1>
-        <a style={linkStyle} 
-           onMouseEnter={this.toggleHover.bind(this)}
-           onMouseLeave={this.toggleHover.bind(this)}
-           href={this.props.href}
-        >
-           {this.props.children}
-        </a>
-      </h1>
-    )
-  }
-}
-
-export default App
