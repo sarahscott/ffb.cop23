@@ -10,8 +10,19 @@
   src: local('Klima'), url(./fonts/klima/klima-regular-web.woff) format('woff');
 }
 
+@font-face {
+  font-family: 'Klima Heavy';
+  src: local('Klima Heavy'), url(./fonts/klima/klima-heavy-web.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Klima Bold';
+  src: local('Klima Bold'), url(./fonts/klima/klima-bold-web.woff) format('woff');
+}
+
 div li {
   display: inline-block;
+  font-size: 40;
 }
 
 .App-title {

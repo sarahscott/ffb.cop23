@@ -20,14 +20,14 @@
     "position": "Arctic region",
     "link": "",
     "description": "The indigenous Saami live in the Arctic regions of Sweden, Norway, Finland and Russia, at the frontlines of climate change",
-    "coords": [215, 130, 19],
+    "coords": [168, 135, 13],
     "_id": 1
   },
   {
     "title": "At Palau Pacific Resort (link)",
     "author": "Emelihter Kihleng",
     "source": "The Missing Slate",
-    "place": "Palau/Pohnpei (FSM)",
+    "place": "Palau/Pohnpei (Federated States of Micronesia)",
     "video": "",
     "position": "Palau",
     "link": "http://themissingslate.com/2017/10/01/palau-pacific-resort/",
@@ -51,7 +51,7 @@
     "title": "The Caregiver’s Story (link)",
     "author": "Evelyn Flores",    
     "source": "The Missing Slate",
-    "place": "Guam/Chuuk (FSM)",
+    "place": "Guam/Chuuk (Federated States of Micronesia)",
     "video": "",
     "position": "Guam or FSM",
     "link": "http://themissingslate.com/2017/10/01/the-caregivers-story/",
@@ -188,7 +188,7 @@
     "position": "middle of Ocean",
     "link": "http://themissingslate.com/2017/10/01/palau-pacific-resort/",
     "description": "The words chanted are the words for ocean in various Pacific languages",
-    "coords": null,
+    "coords": [865, 545, 13],
     "_id": 15
   },
   {

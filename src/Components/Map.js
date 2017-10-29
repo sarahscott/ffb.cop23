@@ -4,6 +4,7 @@ import content from "../content.json"
 import ImageMapper from 'react-image-mapper'
 import Story from "./Story"
 import pacific from '../centrepacifique03.gif'
+import ffbIcon from '../ff-x.png'
 
 const MAP = {name: "my-map",
   areas: content.filter((story) => {
@@ -60,7 +61,12 @@ render() {
   
   return (
     <div className="App">      
-      <div style={{textAlign: "left", marginLeft: 20 }}>
+      <div style={{textAlign: "left", marginLeft: 20, fontFamily: 'Klima' }}>
+        <a href={"https://fossilfreeberlin.org"} style={{fontFamily: "Klima Bold", fontSize: 18}}>
+          <div style={{display: "flex", alignItems: "center"}}>
+          a project by <img src={ffbIcon} style={{height: 20, marginLeft: 10, marginRight: 5}}/> fossil free berlin
+          </div>
+        </a>
         <h2>hover over a point on the map, then scroll down</h2>
         <div style={containerStyle}>
           {
@@ -71,7 +77,7 @@ render() {
                     onMouseEnter={this.handleMouseEnter.bind(this)}
             />
           }
-          { selectedStory && <Story selectedStory={content.find((item)=> item._id === selectedStory._id)} video={this.state.video}/> }         
+          { selectedStory && <Story selectedStory={content.find((item)=> item._id === selectedStory._id)} video={this.state.video}/> }  
         </div>
       </div>
     </div>

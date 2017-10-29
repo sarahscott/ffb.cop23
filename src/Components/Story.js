@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 
+
 const Description = styled.div`
 width: 700px;
 `
@@ -9,13 +10,14 @@ class Story extends Component {
   
     title() {
       const story = this.props.selectedStory
+      const style = { fontFamily: "Klima Bold" }
       if (story.link) {
         return (
-          <a href={story.link}>{story.title}</a>
+          <a href={story.link} style={style}>{story.title}</a>
         )
       }
       return (
-        <h1>{story.title}</h1>
+        <h1 style={style}>{story.title}</h1>
       )
     }
   
@@ -27,6 +29,7 @@ class Story extends Component {
       const subtitleStyle = {
         fontSize: 16,
         fontStyle: "italic",
+        fontFamily: "Klima"
       }
   
       return (
