@@ -1,5 +1,8 @@
 .App {
-  align-items: center;
+  text-align: left;
+  /* align-content: center; */
+  /* align-items: center; */
+  width: 100%
 }
 
 .App-logo {
@@ -8,7 +11,6 @@
 }
 
 .App-header {
-  color: turquoise;
   font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
@@ -16,15 +18,79 @@
   font-size: 1.5em;
 }
 
+.Navigation-bar {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.Navigation-bar h1 {
+  display: inline;  
+}
+
+.Content-and-map-container div{
+  display: inline-block;
+}
+
+h1 {
+  font-size: 25px;
+  margin-right: 20px;
+}
+
+a:link {
+  text-decoration-line: none;
+  font-size: 25px;
+  font-style: bold;
+}
+
+a:hover {
+  text-decoration-line: underline;
+  font-style: italic;
+}
+
+
+
+h2 {
+  font-size: 15px;
+  font-style: italic;
+  
+  -webkit-animation: fadein 2s linear infinite alternate;
+  -moz-animation: fadein 2s linear infinite alternate;
+   -ms-animation: fadein 2s linear infinite alternate;
+    -o-animation: fadein 2s linear infinite alternate;
+  animation: fadein 2s linear infinite alternate;
+}
+
+@keyframes fadein {
+  from { opacity: 0.2; }
+  to   { opacity: 1; }
+}
+
+.imageMapper {
+  height: 100px;
+}
+
 .App-intro {
   flex-direction: row;
   font-size: large;
-  align-self: center;
 }
 
 .Map-image {
-  width: 40%;
+  /* width: 40%;
+  align-self: center; */
+  display: inline-block;
 }
+
+.Story-content-container {
+  margin: 50px;
+  margin-top: 0px;
+  display: inline-block;
+}
+
+.Map-container {
+  text-align: left;
+  flex-direction: row;
+}
+
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
